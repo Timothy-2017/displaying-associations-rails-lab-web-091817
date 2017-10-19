@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+
 RSpec.describe Artist, type: :model do
   before do
     Artist.destroy_all
